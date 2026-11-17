@@ -1,0 +1,21 @@
+# 5通道圆形电容感应数据可视化系统 - Python 依赖
+# 安装：pip install -r requirements.txt
+
+# GUI 框架
+PyQt5>=5.15.0
+pyqtgraph>=0.12.0
+
+# 数值计算
+numpy>=1.21.0
+
+# 串口通信
+pyserial>=3.5
+
+# HTTP API 服务（可选，缺失时 API 功能自动禁用）
+Flask>=2.0.0
+
+# Windows 单实例保护（可选，仅 Windows 生效）
+pywin32>=300; sys_platform == "win32"
+
+# 打包工具（可选，仅在生成 EXE 时需要）
+# pyinstaller>=5.0
