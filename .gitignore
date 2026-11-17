@@ -1,14 +1,68 @@
+# ===== Python =====
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
 build/
+develop-eggs/
 dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# ===== PyInstaller 打包产物 =====
+*.spec.bak
+# 注意：本项目的 5P_single.spec 是源码，需要保留
+
+# ===== 运行时产物 =====
+# SQLite 数据库（含实测传感器数据，不上传）
 data/
 *.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# 日志
 *.log
+logs/
+
+# ===== 本地备份 =====
 bak/
 *.rar
 *.zip
+*.7z
+
+# ===== IDE / 编辑器 =====
 .idea/
 .vscode/
+*.swp
+*.swo
+*~
+
+# ===== 操作系统 =====
 Thumbs.db
+Desktop.ini
 .DS_Store
+
+# ===== 临时文件 =====
+*.tmp
+*.bak
+.temp/
